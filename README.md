@@ -1,4 +1,4 @@
-# CS480NLP_OpenDomainIR
+# Modulated Information Retrieval Task on Domain-Specific Collections
 
 **Author:** Owen Cozine, Phoebe Goldman, Julia Murillo, & Feifei Wang
 
