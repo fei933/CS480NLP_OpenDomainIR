@@ -1,0 +1,213 @@
+Results: 
+
+    Nltk:
+    no plus one:
+
+00_simple
+Average MAP is: 0.21808033277320488
+
+01_downcase
+Average MAP is: 0.21808948191220462
+
+02_punct
+Average MAP is: 0.20591853481754424
+
+03_nltkstopwords
+Average MAP is: 0.2693548690195113
+
+04_snowballstemmer
+Average MAP is: 0.21808993480428426
+
+05_downcase_punct
+Average MAP is: 0.20589063258435208
+
+06_downcase_nltkstopwords
+Average MAP is: 0.2693492066835599
+
+07_downcase_snowballstemmer
+Average MAP is: 0.2180730467516379
+
+08_punct_nltkstopwords
+Queries with No responses:[22, 44]
+Average MAP is: 0.2101885399223497
+
+09_punct_snowballstemmer
+Average MAP is: 0.2060022015497193
+
+10_nltkstopwords_snowballstemmer
+Average MAP is: 0.269289000735936
+
+11_downcase_punct_nltkstopwords
+Queries with No responses:[22, 44]
+Average MAP is: 0.2094427635968242
+
+12_downcase_nltkstopwords_snowballstemmer
+Average MAP is: 0.26932231444054316
+
+13_downcase_punct_snowballstemmer
+Average MAP is: 0.20589781393215886
+
+14_punct_nltkstopwords_snowballstemmer
+Queries with No responses:[22, 44]
+Average MAP is: 0.2095588208610086
+
+15_downcase_punct_nltkstopwords_snowballstemmer
+Queries with No responses:[22, 44]
+Average MAP is: 0.21001946126063842
+
+
+            ,.;:?!' all punct:
+
+08_punct_nltkstopwords
+Queries with No responses:[22, 44]
+Average MAP is: 0.2093186537469429
+
+09_punct_snowballstemmer
+Average MAP is: 0.20630965655717334
+
+11_downcase_punct_nltkstopwords
+Queries with No responses:[22, 44]
+Average MAP is: 0.20946634054343133
+
+13_downcase_punct_snowballstemmer
+Average MAP is: 0.20632112838166752
+
+14_punct_nltkstopwords_snowballstemmer
+Queries with No responses:[22, 44]
+Average MAP is: 0.20966161180413131
+
+15_downcase_punct_nltkstopwords_snowballstemmer
+Queries with No responses:[22, 44]
+Average MAP is: 0.20952119669430974
+
+
+        \n in punct too:
+
+05_downcase_punct
+Average MAP is: 0.2062896798730743
+
+08_punct_nltkstopwords
+Queries with No responses:[22, 44]
+Average MAP is: 0.20965816160601808
+
+09_punct_snowballstemmer
+Average MAP is: 0.20633023134387907
+
+11_downcase_punct_nltkstopwords
+Queries with No responses:[22, 44]
+Average MAP is: 0.20977040999509036
+
+13_downcase_punct_snowballstemmer
+Average MAP is: 0.20635396977098736
+
+14_punct_nltkstopwords_snowballstemmer
+Queries with No responses:[22, 44]
+Average MAP is: 0.20982970358414355
+
+15_downcase_punct_nltkstopwords_snowballstemmer
+Queries with No responses:[22, 44]
+Average MAP is: 0.2094820568551846
+
+
+        normal cosinesim:
+
+00_simple
+Average MAP is: 0.10330762441986768
+
+01_downcase
+Average MAP is: 0.10330761657104233
+
+02_punct
+Average MAP is: 0.1330956450398862
+
+03_nltkstopwords
+Average MAP is: 0.20392228246440014
+
+04_snowballstemmer
+Average MAP is: 0.10330734735062773
+
+05_downcase_punct
+Average MAP is: 0.13309572806094117
+
+06_downcase_nltkstopwords
+Average MAP is: 0.20392104909033876
+
+07_downcase_snowballstemmer
+Average MAP is: 0.10330735519945308
+
+08_punct_nltkstopwords
+Queries with No responses:[22, 44]
+Average MAP is: 0.2997609038359588
+
+09_punct_snowballstemmer
+Average MAP is: 0.13309579576526906
+
+10_nltkstopwords_snowballstemmer
+Average MAP is: 0.20392286084261657
+
+11_downcase_punct_nltkstopwords
+Queries with No responses:[22, 44]
+Average MAP is: 0.2997164298980188
+
+12_downcase_nltkstopwords_snowballstemmer
+Average MAP is: 0.20392273197555558
+
+13_downcase_punct_snowballstemmer
+Average MAP is: 0.13309564327851556
+
+14_punct_nltkstopwords_snowballstemmer
+Queries with No responses:[22, 44]
+Average MAP is: 0.29971031143256543
+
+15_downcase_punct_nltkstopwords_snowballstemmer
+Queries with No responses:[22, 44]
+Average MAP is: 0.29976111509578257
+
+
+
+
+
+
+
+
+
+
+    Spacy no plus one:
+
+16_spacy_full_normalization
+Average MAP is: 0.28114443566229647
+
+17_spacy_punct_stem
+Average MAP is: 0.195974402732142
+
+18_spacy_stop_stem
+Average MAP is: 0.25732316799488086
+
+19_spacy_stop_punct
+Average MAP is: 0.26583731434337743
+
+20_spacy_stem
+Average MAP is: 0.1835540466820992
+
+21_spacy_stop
+Average MAP is: 0.24475311209477907
+
+
+
+    \n in punct no plus one:
+
+
+16_spacy_full_normalization
+Queries with No responses:[22]
+Average MAP is: 0.22401921981220346
+
+17_spacy_punct_stem
+Average MAP is: 0.21786269776153447
+
+19_spacy_stop_punct
+Queries with No responses:[22]
+Average MAP is: 0.20730832582922148
+
+
+
+
